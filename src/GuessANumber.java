@@ -35,8 +35,9 @@ public class GuessANumber {
         while (true) {
 
             System.out.println(ANSI_BLUE);
-            System.out.println("-----------------------------");
-            System.out.println("Guess a number from 1 to 100: ");
+            String guess = "Guess a number from 1 to 100:";
+            printDashes(guess);
+            System.out.println("\nGuess a number from 1 to 100: ");
 
             try {
                 int playerInput = Integer.parseInt(scanner.nextLine());
@@ -46,15 +47,17 @@ public class GuessANumber {
                     if (computerNumber != playerInput) {
                         if (computerNumber <= playerInput) {
                             System.out.println(ANSI_RED);
-                            printDashes("It's too High! Try again..    ");
+                            String tooHigh = "It's too High! Try again..    ";
+                            printDashes(tooHigh);
                             System.out.print("\n  It's too High! Try again..\n");
-                            printDashes("It's too High! Try again..    ");
+                            printDashes(tooHigh);
                             System.out.println();
                         } else {
                             System.out.println(ANSI_RED);
-                            printDashes("It's too Low! Try again..    ");
+                            String tooLow = "It's too Low! Try again..    ";
+                            printDashes(tooLow);
                             System.out.print("\n  It's too Low! Try again..\n");
-                            printDashes("It's too Low! Try again..    ");
+                            printDashes(tooLow);
                             System.out.println();
                         }
                     } else {
@@ -71,9 +74,11 @@ public class GuessANumber {
                     }
                 } else {
                     System.out.println(ANSI_RED);
-                    System.out.println("---------------------------------------------------");
-                    System.out.println("Invalid number! The number should be from 0 to 100.");
-                    System.out.println("---------------------------------------------------");
+                    String invalidNumber = "Invalid number! The number should be from 0 to 100.";
+                    printDashes(invalidNumber);
+                    System.out.println("\nInvalid number! The number should be from 0 to 100.");
+                    printDashes(invalidNumber);
+                    System.out.println();
                 }
             } catch (NumberFormatException e) {
                 System.out.println(ANSI_RED);
