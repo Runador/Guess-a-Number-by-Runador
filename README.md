@@ -3,7 +3,9 @@
 <p>In which your opponent <b>"the computer"</b> chooses a random number between <b>"1 and 100"</b> and your task is to guess this number.
 After each number you enter, the computer will give you a hint of whether the number is greater or less than the number you selected until you guess the correct number.</p>
 
-<img src="https://raw.githubusercontent.com/Runador/Guess-a-Number-by-Runador/main/guessANumber.png" width="800" height="150"> 
+---
+## Gameplay
+<img src="https://raw.githubusercontent.com/Runador/Guess-a-Number-by-Runador/main/guessANumber.png" width="1000" height="400"> 
 
 ---
 <p>This game I wrote without any engines from scratch.</p>
