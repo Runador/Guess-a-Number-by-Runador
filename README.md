@@ -13,7 +13,7 @@ After each number you enter, the computer will give you a hint of whether the nu
 
 <img src="https://raw.githubusercontent.com/Runador/Guess-a-Number-by-Runador/main/61BRwWBPKfL.png" width="300" height="300"> 
 
-This is the link for the repo ➡️ [Guess a Number](https://github.com/Runador/Guess-a-Number-by-Runador/tree/main)
+Link for the repo ➡️ [Guess a Number](https://github.com/Runador/Guess-a-Number-by-Runador/tree/main)
 ---
 ### Enjoy! <br>
 
